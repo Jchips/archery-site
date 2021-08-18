@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #03a3df;
+  height: 120px;
+  padding: 10px 70px 10px 70px;
+}
+
+header nav {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav span {
+  display: inline-block;
+  color: #fff;
+  /* padding-right: 5px; */
+}
+
+.main-nav {
+  display: flex;
+  background-color: #1b447f;
+  padding: 20px;
+  font-weight: bold;
+  justify-content: space-around;
+}
+
+a:hover {
+  color: #ecb722;
+}
+
+.title {
+  font-size: 50px;
+  color: #03a3df;
+  text-align: center;
+  font-weight: bold;
+  /* margin-bottom: 20px; */
+  letter-spacing: 3px;
+}
+
+main h3 {
+  text-align: center;
+  color: #03a3df;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+article {
+  display: grid;
+  margin: 70px 100px 70px 100px;
+  grid-template-columns: 17rem 17rem 17rem 17rem;
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-between;
+}
+
+article h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+section.address {
+  font-size: 17px;
+  grid-column: 1 / 2;
+  grid-row: 1/2;
+}
+
+section.quote {
+  padding: 15px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  color: #03a3df;
+  font-size: 30px;
+}
+
+#quote-author {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+aside {
+  grid-column-start: 3;
+  grid-row: 1/2;
+}
+
+.grid-item-1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid-item-2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.grid-item-3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.grid-item-4 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+article img {
+  box-sizing: border-box;
+  border: 2px solid black;
+}
+
+footer {
+  background-image: url("imgs/footerImage.jpg");
+  padding: 30px 70px 30px 70px;
+  margin: 0;
+  font-size: 17px;
+}
+
+footer p {
+  color: #fff;
+  padding-right: 750px;
+}
+
+footer nav {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+footer span:nth-child(even),
+header span:nth-child(even) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Second page css */
+.classes-h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.classes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+  color: #fff;
+}
+
+.class-card {
+  box-sizing: border-box;
+  background-color: #1b447f;
+  padding: 15px;
+  width: 33%;
+}
+
+.class-card h2 {
+  box-sizing: border-box;
+  padding: 11px;
+  text-align: center;
+  border-bottom: 1px solid #ecb722;
+  margin: 0 25px 10px 25px;
+  font-size: 22px;
+}
+
+.class-card h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ecb722;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.class-card p {
+  font-size: 17px;
+  margin: 10px;
+  margin-bottom: 20px;
+}

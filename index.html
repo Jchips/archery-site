@@ -3,51 +3,69 @@
   <head>
     <meta charset="utf-8">
     <title>Archery Academy</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header>
-      <img src="archeryAcademy-logo-white.png" alt="Archery Academy logo">
+      <img src="imgs/archeryAcademy-logo-white.png" alt="Archery Academy logo">
       <nav>
-        <li><a href="#">Register</a></li>
-        <li>/</li>
-        <li><a href="#">Contact</a></li>
+        <span><a href="#">Register</a></span>
+        <span>/</span>
+        <span><a href="#">Contact</a></span>
       </nav>
     </header>
-    <nav>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Classes</a></li>
-      <li><a href="#">Instructors</a></li>
-      <li><a href="#">Directions</a></li>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="classes.html">Classes</a>
+      <a href="#">Instructors</a>
+      <a href="#">Directions</a>
     </nav>
     <main>
-      <section>
-        <p>"Straight to the Point"</p>
-        <article class="">
+      <p class="title">Straight to the Point.</p>
+      <!-- <h3>Archery school</h2> -->
+      <article>
+        <section class="address">
+          <h2>Our address:</h2>
           <p>Straight to the Point Archery</p>
           <p>528 Nock Point Ln</p>
           <p>Tacoma, WA 98412</p>
           <p>archery-education@example.com</p>
-          <p>(253)555-1010</p>
-        </article>
-        <aside class="">
-          <img src="#" alt="archery photo 1">
-          <img src="#" alt="archery photo 2">
+          <p>(253) 555-1010</p>
+        </section>
+        <section class="quote">
+          <p>"My biggest goal is to see archery grow and help its participants to grow with it."</p>
+          <p id="quote-author">- Derek Jenkins, Coach</p>
+        </section>
+        <aside>
+          <iframe src="https://player.vimeo.com/video/527473109?h=6f9b9e491a&byline=0&portrait=0" width="512" height="288" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </aside>
-      </section>
+        <div class="grid-item-1">
+          <img src="https://live.staticflickr.com/7836/33374797558_b56ff2c6de_b.jpg" height="240" width="320" alt="archery photo 1">
+        </div>
+        <div class="grid-item-2">
+          <img src="https://live.staticflickr.com/4263/35687741342_e6c049219e_b.jpg" height="240" width="320" alt="archery photo 2">
+        </div>
+        <div class="grid-item-3">
+          <img src="https://live.staticflickr.com/4246/34047508094_e45f606190_b.jpg" height="240" width="320" alt="archery photo 3">
+        </div>
+        <div class="grid-item-4">
+          <img src="https://live.staticflickr.com/5780/23704807951_a32accc0ff_b.jpg" height="240" width="240" alt="archery photo 4">
+        </div>
+      </article>
     </main>
     <footer>
-      <img src="archeryAcademy-logo-white.png" alt="Archery Academy logo">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse orci urna, interdum vitae dui quis, maximus tempus neque.</p>
+      <img src="imgs/archeryAcademy-logo-white.png" width="137" height="57" alt="Archery Academy logo">
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Suspendisse orci urna.</p>
       <nav>
-        <li><a href="#">Footer 1</a></li>
-        <li>/</li>
-        <li><a href="#">Footer 2</a></li>
-        <li>/</li>
-        <li><a href="#">Footer 3</a></li>
-        <li>/</li>
-        <li><a href="#">Footer 4</a></li>
+        <span><a href="#">Footer 1</a></span>
+        <span>/</span>
+        <span><a href="#">Footer 2</a></span>
+        <span>/</span>
+        <span><a href="#">Footer 3</a></span>
+        <span>/</span>
+        <span><a href="#">Footer 4</a></span>
       </nav>
-      <p>&copy; 2018 Archery Academy &emsp;|&emsp;Seattle, WA</p>
+      <p>&copy; 2018 Archery Academy&emsp;|&emsp;Seattle, WA</p>
     </footer>
   </body>
 </html>
