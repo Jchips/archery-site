@@ -42,19 +42,11 @@ a:hover {
 
 .title {
   font-size: 50px;
-  color: #03a3df;
+  color: #037EAA;
+  /* color: #03a3df; */
   text-align: center;
   font-weight: bold;
-  /* margin-bottom: 20px; */
   letter-spacing: 3px;
-}
-
-main h3 {
-  text-align: center;
-  color: #03a3df;
-  font-size: 17px;
-  letter-spacing: 3px;
-  font-weight: bold;
 }
 
 article {
@@ -80,7 +72,8 @@ section.quote {
   padding: 15px;
   grid-column: 2/3;
   grid-row: 1/2;
-  color: #03a3df;
+  color: #037EAA;
+  /* color: #03a3df; */
   font-size: 30px;
 }
 
@@ -121,7 +114,7 @@ article img {
 }
 
 footer {
-  background-image: url("imgs/footerImage.jpg");
+  background-image: url("../imgs/footerImage.jpg");
   padding: 30px 70px 30px 70px;
   margin: 0;
   font-size: 17px;
